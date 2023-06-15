@@ -5,7 +5,7 @@
 # --------------------------------------------------------------------------------
 # To update the sha, run `docker pull node:$VERSION-alpine`
 # look for something like: `Digest: sha256:0123456789abcdef`
-FROM node:18.15-alpine@sha256:47d97b93629d9461d64197773966cc49081cf4463b1b07de5a38b6bd5acfbe9d as base
+FROM node:20.3-alpine@sha256:e6f3bab50ea4b1b0e3548f76cccc6ef8e30268fb50a20683331fd245ed17e0e1 as base
 
 # This directory is owned by the node user
 ARG APP_HOME=/home/node/app
